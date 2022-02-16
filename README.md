@@ -4,6 +4,8 @@
 
 > This is a project divided in two apps.
 
+This repo contains the back-end
+
 The first app is a Rails back-end that provides an API that shows a random greeting.
 
 The second app is a React front-end that gets the greeting from the Rails API and print the text.
@@ -29,8 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Open the terminal
 - Open the directory where you want to store the project
-- Clone the back-end project runing 'git clone https://github.com/LOctavio/hello-rails-back-end' on the terminal
-- Clone the  front-end project runing 'git clone https://github.com/LOctavio/hello-react-front-end' on the terminal
+- Clone the project runing 'git clone https://github.com/LOctavio/hello-rails-back-end' on the terminal
 
 ### Install
 
