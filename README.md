@@ -1,72 +1,67 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Set up a "Hello world" project with two apps
 
-> Description the project.
+> This is a project divided in two apps.
 
+The first app is a Rails back-end that provides an API that shows a random greeting.
+
+The second app is a React front-end that gets the greeting from the Rails API and print the text.
+
+Here is the [link](https://github.com/LOctavio/hello-react-front-end/pull/1) to the react APP
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby on rails
+- React
+- Redux
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+#### Prerequisites
+
+- Ruby >= 3.0.1 
+- Ruby on Rails >= 7.0.1
 
 ### Setup
 
+- Open the terminal
+- Open the directory where you want to store the project
+- Clone the back-end project runing 'git clone https://github.com/LOctavio/hello-rails-back-end' on the terminal
+- Clone the  front-end project runing 'git clone https://github.com/LOctavio/hello-react-front-end' on the terminal
+
 ### Install
+
+- Open the project directory on the terminal
+- Inside the project's directory run 'bundle install' to install all the dependencies
+- run 'rails db:migrate' to migrate the database
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
+- Open the project directory on the terminal
+- Run 'rails server' to start the server
+- Open the web browser and go to 'localhost:3000' to see the web page
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Luis Octavio Ramirez Cruz**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [LOctavio](https://github.com/LOctavio)
+- Twitter: [@Octavio_ram431](https://twitter.com/Octavio_ram431)
+- LinkedIn: [Luis Octavio Ramirez Cruz](https://www.linkedin.com/in/luis-octavio-ramirez-cruz/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/LOctavio/hello-rails-back-end/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
